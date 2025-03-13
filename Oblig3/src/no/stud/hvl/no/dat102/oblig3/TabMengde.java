@@ -3,8 +3,6 @@ package no.stud.hvl.no.dat102.oblig3;
 import java.util.Arrays;
 import java.util.EmptyStackException;
 
-
-
 public final class TabellMengde<T> implements MengdeADT<T> {
 
 	private static final int DEFAULT_KAPASITET = 10; 
