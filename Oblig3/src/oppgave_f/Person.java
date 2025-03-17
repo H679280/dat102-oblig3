@@ -21,5 +21,22 @@ public class Person {
 			this.hobbyer.add(hobby);
 		}
 	}
+	
+	
+	public String getNavn() {
+		return navn;
+	}
+	
+	
+	public Set<String> getHobbyer() {
+		return hobbyer;
+	}
+	
+	
+	@Override
+    public String toString() {
+        return navn + " sine hobbyer: " + hobbyer;
+    }
 
 }
+
